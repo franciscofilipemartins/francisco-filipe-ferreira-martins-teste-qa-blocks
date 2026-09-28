@@ -67,4 +67,8 @@ utils/testData.js      # geração de usuário válido e massa de dados dos test
 - "Área de atuação" e o aceite dos termos são botões estilizados, não checkboxes nativos, e não expõem estado (`aria-checked`) para tecnologias assistivas.
 - As mensagens de validação aparecem em inglês ("This is not a valid email.", "Passwords must match", regras de senha) mesmo na versão em português, com exceção de "Este email já está em uso.".
 
+## Uso de IA
+
+Este projeto foi desenvolvido com apoio do [Claude Code](https://claude.com/claude-code) (Anthropic), usado para explorar o comportamento da página, revisar boas práticas do Playwright e depurar seletores. A definição dos cenários, as decisões técnicas e a validação final dos testes foram feitas por mim.
+
 > **Atenção:** os testes rodam contra o ambiente de produção. Cada execução completa cria 6 contas reais (CT01 e CT05 em cada navegador), usando e-mails descartáveis do Mailinator.
